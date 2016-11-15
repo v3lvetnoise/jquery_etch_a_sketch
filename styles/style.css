@@ -19,3 +19,32 @@ body {
   background-color: black;
   opacity: .1;
 }
+
+.buttons {
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.buttons ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 15px 0;
+}
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  width: 220px;
+  height: 30px;
+  padding: 5px 10px;
+  background: #0D6;
+  border: 1px solid #0D6;
+  color: #FFF;
+}
+
+.button:hover {
+  background: #FFF;
+  color: #0D6;
+}
