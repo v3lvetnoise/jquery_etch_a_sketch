@@ -3,11 +3,16 @@ body {
 }
 
 #grid {
-  height: 640px;
-  width: 640px;
+  width: 800px;
   border: 1px solid black;
   margin: 0 auto;
   font-size: 0;
+}
+
+#grid::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .square {
@@ -15,7 +20,8 @@ body {
   width: 40px;
   margin: 0;
   padding: 0;
-  display: inline-block;
+  /*display: inline-block;*/
+  float: left;
   background-color: black;
   opacity: .1;
 }
