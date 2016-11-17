@@ -7,7 +7,7 @@ $(document).ready(function() {
 
   generateGrid(squares_amount);
 
-  $(".square").hover(function() {
+  $(".square").mouseenter(function() {
     $(this).css("background-color", getRandomColor()).css("opacity", "1");
   });
 
